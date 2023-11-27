@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.login{
+    display: inline-block;
+}
+
+section.main {
+    text-align: center;
+    background:linear-gradient(white, #FBFBFB);
+    padding: 2% 0;
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.login {
+    margin: 0 8%;
+    border: 1px solid #cbcbcb;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    height: 410px;
+}
+
+.campos {
+    margin: 0 auto;
+    margin-top: 9%;
+    width: 100%;
+}
+
+.logobox .logo{
+    transition: 1s;
+}
+
+.logo {
+    transition: 1s;
+    text-align: center;
+    width: 55%;
+    font-family: "Parisienne";
+    font-size: 40px;
+    margin: 5% auto;
+}
+
+.logo h2{
+    font-size: 50px;
+    text-align: center;
+    margin: auto auto;
+}
+
+
+form.login input[type="email"],
+form.login input[type="password"]{
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #f7f7f7;
+    width: 75%;
+    height: 45px;
+    border-radius: 4px;
+    border: 1px solid #cbcbcb;
+    padding: 3% 2%;
+    margin: 1%;
+    outline: 0;
+    color: #666565;
+}
+
+form.login input[type=email]:focus{
+    border: 2px solid #65bdf8;
+}
+form.login input[type=password]:focus{
+    border: 2px solid #65bdf8;
+}
+
+
+form.login input[type=submit]{
+    transition: 1s;
+    margin: 13px 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    border: 1px solid #cbcbcb; 
+    border-radius: 12px;
+    width:75% ;
+    height: 43px;
+    background-color: #65bdf8;
+    cursor: pointer;
+}
+
+form.login input[type=submit]:focus {
+    transform: scale(90%);
+    transition:  0.1s  ease-out;
+}
+
+.linha1, .linha2 {
+    margin: 15px 4%;
+    height: 10px;
+    width: 100%;
+    border-top: 1px solid #cbcbcb;
+} 
+
+.ou {
+    text-align: center;
+    width: 80%;
+    display: inline-flex;
+}
+
+h3 {
+    font-family: sans-serif;
+    color: #696969;
+    text-align: center;
+    margin: 5px  5px;
+}
+
+button {
+    cursor: pointer;
+    display: inline-flex;
+    text-align: center;
+    background-color: white;
+    border: 0;
+    outline: 0;
+}
+
+.facebook  span{
+    margin: 2% 0;
+    display: inline-block;
+    text-align: center;
+    width: 160px;
+}
+
+.facebook span {
+    text-align: center;
+    font-size: 15px;
+    width: 160px;
+    color: #212195;
+}
+
+.face {
+    float: left;
+    width: 30px;
+}
+
+.esqueceu {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.esqueceu a{
+    text-decoration: none;
+}
+
+h4{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(41, 41, 130);
+}
+
+.cadastrar {
+    display: inline-block;
+    border: 1px solid #cbcbcb;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    height: 70px;
+    margin: 5%;
+}
+
+.cadastrar-in{
+    margin: 5%;
+    text-align: center;
+    margin: 7% auto;
+    width: 80%;
+    height: 30%;
+}
+
+.cadastrar span {
+    font-family:  sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #424141;
+}
+.cadastrar button {
+    font-family:  sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #65bdf8;
+}
+
+.obtenha {
+    color: #424141;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    text-align: center;
+    margin: 1.5%;
+}
+
+.stores {
+    text-align: center;
+    width: 400px;
+    display: inline-block;
+    padding: 1% ;
+}
+
+.gplay {
+    height: 35px;
+}
+
+.micros {
+    margin: 0 5px;
+    width: 118px;
+    height: 35px;    
+}
+
+.cadastrar {
+    display: inline-block;
+    border: 1px solid #cbcbcb;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    height: 80px;
+    margin: 12px;
+}
+
+.cadastrar-in{
+    margin: 5%;
+    text-align: center;
+    margin: 7% auto;
+    width: 80%;
+    height: 30%;
+}
+@media screen and (max-width: 320px){
+
+    .logobox .logo{
+        transition: 1s;
+        width: 100%;
+        padding: 5% auto;
+    }
+
+    .logo h2{
+        font-size: 30px;
+        transition: 1s;
+    }
+
+    .micros{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 516px) {
+
+    .logobox .logo{
+        transition: 1s;
+        width: 100%;
+        padding: 5% auto;
+    }
+
+    form.login input[type=email],
+    form.login input[type=password],
+    form.login input[type=submit]{
+        font-size: 10px;
+        transition: 1s;
+    }
+
+    .face{
+        margin: 0 40%;
+    }
+
+    .facebook span {
+        margin: 5px 0;
+        font-size: 12px;
+        width: 130px;
+    }
+
+    h4 {
+        margin: px 0;
+    }
+
+    .esqueceu {
+        margin: 0 ;
+        float: left;
+        text-align: center;
+    }
+
+    .logo {
+        transition: 1s;
+        font-size: 20px;
+    }
+    
+    .login{
+        margin: 0 auto;
+        text-align: center;
+        width: 93%;
+        height: 90%;
+    }
+    .center{
+        display: block;
+        text-align: center;
+    }
+
+    .cadastrar{
+        width: 90%;
+        margin: 10px auto;
+        height: 10%;
+    }
+
+    .cadastrar .sem-conta{
+        margin: 0 2%;
+        display: inline-block;
+    }
+
+    .obtenha {
+        font-size: 12px ;
+        display: block;
+        text-align: center;
+    }
+
+    .stores{
+        width: 87%;
+    }
+}
+
+@media screen and (max-height: 610px) {
+    
+    form.login input[type=email],
+    form.login input[type=password],
+    form.login input[type=submit]{
+        font-size: 10px;
+        transition: 1s;
+    }
+
+    .face{
+        margin: 0 40%;
+    }
+
+    .facebook span {
+        margin: 5px 0;
+        font-size: 12px;
+        width: 130px;
+    }
+
+    h4 {
+        margin: 2% auto;
+    }
+
+    .esqueceu {
+        margin: 0 ;
+        float: left;
+        text-align: center;
+    }
+
+    .logo {
+        transition: 1s;
+        font-size: 20px;
+    }
+
+    .login{
+        margin: 0 auto;
+        text-align: center;
+        width: 93%;
+        height: 90%;
+    }
+    .center{
+        display: block;
+        text-align: center;
+    }
+
+    .cadastrar{
+        width: 90%;
+        margin: 10px auto;
+        height: 12%;
+    }
+
+    .cadastrar-in{
+        padding: 3%;
+        margin: 2% auto;
+    }
+
+    .cadastrar .sem-conta{
+        margin: 0 2%;
+        display: inline-block;
+    }
+
+    .obtenha {
+        font-size: 12px ;
+        display: block;
+        text-align: center;
+    }
+    
+    .stores{
+        width: 87%;
+    }
+}
