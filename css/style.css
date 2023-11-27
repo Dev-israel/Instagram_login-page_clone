@@ -207,6 +207,11 @@ h4{
     color: #65bdf8;
 }
 
+.cadastrar a{
+    color: #65bdf8;
+    text-decoration: none;
+}
+
 .obtenha {
     color: #424141;
     font-family: sans-serif;
