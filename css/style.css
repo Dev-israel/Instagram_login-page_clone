@@ -176,24 +176,6 @@ h4{
     color: rgb(41, 41, 130);
 }
 
-.cadastrar {
-    display: inline-block;
-    border: 1px solid #cbcbcb;
-    text-align: center;
-    width: 90%;
-    max-width: 400px;
-    height: 70px;
-    margin: 5%;
-}
-
-.cadastrar-in{
-    margin: 5%;
-    text-align: center;
-    margin: 7% auto;
-    width: 80%;
-    height: 30%;
-}
-
 .cadastrar span {
     font-family:  sans-serif;
     font-weight: normal;
@@ -218,14 +200,14 @@ h4{
     font-size: 17px;
     font-weight: normal;
     text-align: center;
-    margin: 1.5%;
+    margin: 30px 10px 10px 10px;
 }
 
 .stores {
     text-align: center;
     width: 400px;
     display: inline-block;
-    padding: 1% ;
+    padding: 5px;
 }
 
 .gplay {
@@ -244,14 +226,13 @@ h4{
     text-align: center;
     width: 90%;
     max-width: 400px;
-    height: 80px;
-    margin: 12px;
+    height: 60px;
+    margin: 10px;
 }
 
 .cadastrar-in{
-    margin: 5%;
     text-align: center;
-    margin: 7% auto;
+    margin: 5% auto;
     width: 80%;
     height: 30%;
 }
@@ -304,7 +285,7 @@ h4{
     }
 
     .esqueceu {
-        margin: 0 ;
+        margin: 10px auto;
         float: left;
         text-align: center;
     }
@@ -328,7 +309,7 @@ h4{
     .cadastrar{
         width: 90%;
         margin: 10px auto;
-        height: 10%;
+        height: 60px;
     }
 
     .cadastrar .sem-conta{
@@ -337,7 +318,7 @@ h4{
     }
 
     .obtenha {
-        font-size: 12px ;
+        font-size: 16px ;
         display: block;
         text-align: center;
     }
